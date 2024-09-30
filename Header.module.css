@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.nav-links a,
+.logo a h1 {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}

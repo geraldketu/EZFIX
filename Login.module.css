@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.login-container h1 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #008000;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.or-container span {
+  color: #888;
+}
+
+.login-phone-button,
+.login-google-button,
+.login-facebook-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-phone-button {
+  background-color: #cccccc;
+}
+
+.login-google-button {
+  background-color: #ff4d4d;
+}
+
+.login-facebook-button {
+  background-color: #4d79ff;
+}
+
+.signup-container {
+  margin-top: 20px;
+}
+
+.signup-container p {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.signup-container a {
+  color: green;
+  text-decoration: none;
+}
+
+.signup-container a:hover {
+  text-decoration: underline;
+}
+
+/* Focus styles for accessibility */
+input:focus,
+button:focus {
+  outline: 2px solid #005500;
+  outline-offset: 2px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
